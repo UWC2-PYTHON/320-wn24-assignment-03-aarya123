@@ -1,0 +1,11 @@
+[MESSAGES CONTROL]
+disable=
+    missing-docstring,
+    format,
+    invalid-name,
+    unspecified-encoding,
+    too-few-public-methods,
+    too-many-arguments,
+    duplicate-code,
+    unnecessary-lambda-assignment,
+    unnecessary-direct-lambda-call,
