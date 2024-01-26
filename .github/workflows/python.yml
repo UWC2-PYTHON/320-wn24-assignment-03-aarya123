@@ -23,7 +23,7 @@ jobs:
         pylint $(git ls-files '*.py')
     - name: Running unittests with coverage
       run: |
-        coverage -m unittest test_*.py
+        coverage run -m unittest test_*.py
     - name: Checking for 80% coverage
       run: |
         coverage report --fail-under=80
